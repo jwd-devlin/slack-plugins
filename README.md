@@ -1,10 +1,23 @@
 # slack-plugins
 (*) item in progress.
 
-- Movies_Of_The_Week (*)
+##Description:
+The follow project uses airflow to routinely publish some helpful announcements on slack.
+
+
+- Movies_Of_The_Week DAG(*)
   - Scrapes a list of local Cinemas and Posts to Slack the Movies for that week. #Random Channel.
+  - Set to run once a week.
 - Whos_Out_Today
-  - Daily posts information about people are on leave from Personio. #General Channel.
-- Equivalent_Material
-  - Triggered question that takes string input and will try to find the equivalent material.
-  
+  - Posts information about people are on leave from Personio. #General Channel.
+  - Set to run Daily.
+
+
+## How to run:
+
+#### Setup:
+- Slack Bot:
+
+- Airflow Install
+
+- Running
