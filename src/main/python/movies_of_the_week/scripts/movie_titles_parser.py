@@ -2,7 +2,7 @@ import logging
 
 from bs4 import BeautifulSoup
 
-class MovieTitleExtractor:
+class MovieTitleParser:
 
     def __init__(self):
         self._movie_titles_dic = {}
